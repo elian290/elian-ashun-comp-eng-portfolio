@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --bg: #0b1120;
+    --panel: #111b2e;
+    --text: #f3f6fb;
+    --muted: #9eacc2;
+    --accent: #61d6d2;
+    --line: rgba(255, 255, 255, 0.1);
+}
