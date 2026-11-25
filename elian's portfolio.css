@@ -364,3 +364,95 @@ quick-section,
 .site-footer a {
     color: var(--accent);
 }
+
+@media (max-width: 800px) {
+    .hero {
+        grid-template-columns: 1fr;
+        padding-top: 60px;
+        gap: 45px;
+    }
+
+    .hero-photo-area {
+        order: -1;
+    }
+
+    .photo-ellipse {
+        height: 350px;
+        width: 280px;
+    }
+
+    .quick-cards,
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navigation {
+        gap: 17px;
+    }
+}
+
+@media (max-width: 600px) {
+    .site-header {
+        height: 72px;
+        position: relative;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .navigation {
+        display: none;
+        position: absolute;
+        top: 72px;
+        left: 0;
+        right: 0;
+        padding: 18px;
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navigation.open {
+        display: flex;
+    }
+
+    .hero h1,
+    .about-intro h1 {
+        letter-spacing: -1.8px;
+    }
+
+    .hero {
+        min-height: unset;
+        padding: 45px 0 55px;
+    }
+
+    .quick-section {
+        padding: 40px 0 60px;
+    }
+
+    .about-page {
+        padding-top: 48px;
+    }
+
+    .site-footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact-section h2 {
+        font-size: 1.4rem;
+    }
+}
