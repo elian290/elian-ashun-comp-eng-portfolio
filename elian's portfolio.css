@@ -327,3 +327,40 @@ quick-section,
     margin-top: auto;
     padding-top: 20px;
 }
+
+.contact-section {
+    border: 1px solid var(--line);
+    border-radius: 15px;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background: var(--panel);
+}
+
+.contact-section h2 {
+    font: 700 1.7rem 'Manrope', sans-serif;
+    margin-bottom: 7px;
+}
+
+.contact-section p:not(.eyebrow) {
+    color: var(--muted);
+}
+
+.site-footer {
+    width: min(1120px, 90%);
+    margin: auto;
+    border-top: 1px solid var(--line);
+    padding: 25px 0 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    color: var(--muted);
+    font-size: 0.85rem;
+}
+
+.site-footer a {
+    color: var(--accent);
+}
